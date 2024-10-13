@@ -218,3 +218,26 @@ footer {
     flex: 0 1 auto;
     margin: 10px;
 }
+
+#music-player {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#play-pause {
+    background-color: #4a9ff5;
+    color: #fce205;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Bangers', cursive;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#play-pause:hover {
+    background-color: #3a8fe5;
+}
